@@ -410,5 +410,11 @@ else
   mv "$tmpf" "$PRINTER_CFG"
 fi
 
+# Install better macros
+cd ~
+git clone https://github.com/ss1gohan13/SV08-Replacement-Macros.git
+cd SV08-Replacement-Macros
+./install-macros.sh
+
 echo "All done."
 
