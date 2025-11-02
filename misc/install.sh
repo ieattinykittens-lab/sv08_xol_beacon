@@ -416,5 +416,8 @@ git clone https://github.com/ss1gohan13/SV08-Replacement-Macros.git
 cd SV08-Replacement-Macros
 ./install-macros.sh
 
+# Install klippain shaketune
+wget -O - https://raw.githubusercontent.com/Frix-x/klippain-shaketune/main/install.sh | bash
+
 echo "All done."
 
